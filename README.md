@@ -12,6 +12,7 @@ Donde `puzzle` es una matriz.
 
 Para ingresar un sudoku se debe declarar como una matriz de  enteros y asignar valores de esta forma:
 
+``` markdown
 int[][] nomPuzzle = {
 	8,0,0,4,0,6,0,0,7,
 	0,0,0,0,0,0,4,0,0,
@@ -23,6 +24,7 @@ int[][] nomPuzzle = {
 	0,0,1,0,0,0,0,0,0,
 	3,0,0,9,0,2,0,0,5
 };
+```
 
 De esta manera se puede representar el sudoku de forma matricial y para resolverlo llamamos a la funcion:
 
